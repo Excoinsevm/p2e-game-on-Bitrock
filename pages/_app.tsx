@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { BitrockMainnet } from "@thirdweb-dev/chains";
+import { Bitrock } from "@thirdweb-dev/chains";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import NavBar from "../components/NavBar";
@@ -11,7 +11,7 @@ import NavBar from "../components/NavBar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={BitrockMainnet}>
+    <ThirdwebProvider activeChain={Bitrock}>
       <ChakraProvider>
         <NavBar/>
         <Component {...pageProps} />
