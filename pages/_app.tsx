@@ -11,7 +11,7 @@ import NavBar from "../components/NavBar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={Bitrock}>
+    <ThirdwebProvider activeChain={ Bitrock }>
       <ChakraProvider>
         <NavBar/>
         <Component {...pageProps} />
