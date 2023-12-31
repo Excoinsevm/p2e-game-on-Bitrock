@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
-import { PolygonZkevmTestnet } from "@thirdweb-dev/chains";
+import { Bitrock } from "@thirdweb-dev/chains";
 import { ChakraProvider } from "@chakra-ui/react";
 import NavBar from "../components/NavBar";
 
